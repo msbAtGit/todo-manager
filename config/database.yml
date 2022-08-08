@@ -7,7 +7,7 @@
 default: &default
   adapter: mysql2
   host: freshworks-batch-2.c52o448usuop.ap-south-1.rds.amazonaws.com
-  user: bharathwaj
+  username: bharathwaj
   password: bha@2022
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
